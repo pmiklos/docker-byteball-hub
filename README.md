@@ -40,7 +40,7 @@ NOTE: The configuration files are stored in the `/byteball` folder inside the co
 ### Changing the configuration
 
 In order to change the configuration file, stop the byteball-hub container
-and tart a new one like below:
+and start a new one like below:
 
 ```console
 $ docker run -it --rm -v byteball-hub:/byteball byteball-hub vi /byteball/conf.json
