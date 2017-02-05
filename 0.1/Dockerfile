@@ -16,5 +16,5 @@ WORKDIR /home/byteball
 
 EXPOSE 6611
 
-CMD [ "/bin/sh", "-c", "node /usr/local/lib/node_modules/byteball-hub/start.js >> /byteball/log.txt 2>&1" ]
+CMD [ "/bin/sh", "-c", "node /usr/local/lib/node_modules/byteball-hub/start.js >> /byteball/log.txt 2>> /byteball/error.log" ]
 
